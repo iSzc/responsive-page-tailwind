@@ -1,0 +1,75 @@
+.openMenu {
+  width: 250px;
+  height: 100vh;
+  z-index: -1;
+  box-shadow: -150px 0px 10px 100px rgba(0, 0, 0, 0.7);
+  margin-right: -10px;
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+}
+
+.offFocus {
+  background-color: rgba(53, 54, 58, 0.5);
+}
+
+.bodyFixed {
+  overflow: hidden;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.lineActive:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 2px);
+}
+
+.lineActive:nth-child(2) {
+  display: none;
+}
+
+.lineActive:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -2px);
+}
+
+.hamburger.active .line {
+  transform: rotate(0) translate(0);
+}
+
+.hamburger.active .line:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 2px);
+}
+
+.hamburger.active .line:nth-child(2) {
+  display: block;
+}
+
+.hamburger.active .line:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -2px);
+}
+
+/* Estilos para telas abaixo de 480px */
+@media (max-width: 480px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px;
+    position: relative;
+  }
+}
