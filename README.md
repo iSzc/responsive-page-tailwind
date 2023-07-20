@@ -1,7 +1,7 @@
 <h1 align="center">News Homepage</h1>
 
 <p align="center">
-  <img alt="Quiz Game" src=".github/newshomape.jpg">
+  <img alt="Newshomepage" src=".github/public/newshomepage.jpg">
 </p>
 
 ## 💣 Projeto
