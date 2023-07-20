@@ -31,7 +31,7 @@ function Content() {
   });
 
   return (
-    <div className="w-[70%] h-[68%] w480:gap-y-[50px] w480:flex-col w480:px-[15px] flex justify-between font-Inter w640:flex-col w640:px-4 w640:gap-y-10 w768:w-screen w768:px-5 w1024:w-11/12">
+    <main className="w-[70%] h-[68%] w480:gap-y-[50px] w480:flex-col w480:px-[15px] flex justify-between font-Inter w640:flex-col w640:px-4 w640:gap-y-10 w768:w-screen w768:px-5 w1024:w-11/12">
       <div className="h-full w-[65%] w480:w-[100%] w480:gap-y-[10px] gap-y-[35px] flex flex-col w640:w-full w768:w-3/5 w768:gap-y-5 ">
         <div className="h-[60%] w480:h-[100%] w768:h-full">
           <img src={respImg} alt="" className="h-full w-[100%]" />
@@ -50,7 +50,7 @@ function Content() {
           </span>
         </div>
       </div>
-      <div className="w-[32%] flex flex-col py-[20px] px-[20px] bg-[#00001a] justify-between w480:w-full w480:gap-y-[10px] w640:w-4/6 w768:w-2/5  w768:px-4 w1024:px-4 w1440:px-5">
+      <aside className="w-[32%] flex flex-col py-[20px] px-[20px] bg-[#00001a] justify-between w480:w-full w480:gap-y-[10px] w640:w-4/6 w768:w-2/5  w768:px-4 w1024:px-4 w1440:px-5">
         <h1 className="text-5xl text-[#f1a759] font-bold w480:text-3xl w768:text-2xl w1024:text-3xl">
           New
         </h1>
@@ -82,8 +82,8 @@ function Content() {
             that means.
           </p>
         </span>
-      </div>
-    </div>
+      </aside>
+    </main>
   );
 }
 
