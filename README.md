@@ -1,7 +1,7 @@
 <h1 align="center">News Homepage</h1>
 
 <p align="center">
-  <img alt="Newshomepage" src=".github/newshomepage.jpg">
+  <img alt="Newshomepage" src="./public/newshomepage.jpg">
 </p>
 
 ## 💣 Projeto
