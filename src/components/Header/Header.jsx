@@ -25,7 +25,7 @@ function Header(props) {
   }, [menuOpen]);
 
   return (
-    <div
+    <header
       className={` w480:h-18 h-14 w-[70%] flex flex-row items-center justify-between relative z-10  w640:px-4 w768:w-screen w768:px-5 w1024:w-11/12`}
     >
       <div
@@ -76,7 +76,7 @@ function Header(props) {
           <ButtonHeader btnName="Categories" />
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
