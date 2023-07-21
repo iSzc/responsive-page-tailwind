@@ -1,6 +1,6 @@
 function Footer(props) {
   return (
-    <div className="h-36 w-[33%] flex w480:w-full w480:h-44 w640:w-screen w768:w-full w768:px-5 w768:h-42 w640:pb-8 w1024:w-2/6 ">
+    <footer className="h-36 w-[33%] flex w480:w-full w480:h-44 w640:w-screen w768:w-full w768:px-5 w768:h-42 w640:pb-8 w1024:w-2/6 ">
       <div className="w-28 w1024:h-30">
         <img
           src={props.img}
@@ -19,7 +19,7 @@ function Footer(props) {
           {props.desc}
         </span>
       </div>
-    </div>
+    </footer>
   );
 }
 
